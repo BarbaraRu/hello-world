@@ -1,0 +1,42 @@
+<!DOCTYPE html/>
+<html lang="en">
+<head>
+
+<meta charset="utf-8"/>
+<title> to do list</title>
+
+</head>
+<body>
+<div id="container">
+	
+<h1> To do list</h1>
+
+</div>
+
+<input type="text" id ="inserisciItem"/>
+<button id="btnInserisci" >Aggiungi</button>
+<ul id="todoList">
+</ul>
+</div>
+
+<script type="text/javascript">
+
+var item = document.getElementById("inserisciItem");
+var btnInsert= document.getElementById("btnInserisci");
+var todoList= document.getElementById("todoList");
+btnInsert.addEventListener("click",function(){
+	if(item.value!=""){
+		var temp="<li>"+ item.value + "</li>";
+		todoList.innerHTML+=temp;
+		pulisciCampo;
+	}
+});
+function pulisciCampo(){
+	item.value ="";
+}
+	
+</script>
+</pre>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html/>
+<html lang="en">
+<head>
+
+<meta charset="utf-8"/>
+<title>document uso variabili</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+var language="italian";
+var name; //anchep per questo darà errore perchè non inizializzata
+var age=10; //age senza var è variabile non definita quindi darà errore
+</script>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+</p>
+
+<script type="text/javascript">
+document.write("language is: "+language+"<br>");
+document.write("Name is "+name+"<br>");
+document.write(typeof name+"<br>");
+document.write("Age is "+age*20+"<br>");
+document.write("Age is "+(age++)+"<br>");//postincremento quindi in questo caso non incrementa nulla
+document.write("Age is "+(age+=2)+"<br>");
+</script>
+
+
+</body>
+</html>
