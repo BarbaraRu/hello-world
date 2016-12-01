@@ -1,0 +1,26 @@
+#container{
+	width:360px;
+	height: 360px;
+	background-color: #ccc;
+}
+#binario{
+	height: 100px;
+	width: 360px;
+	background: rgba(0,0,0,0);
+	background-repeat: repeat-y; 
+	border-bottom: 2px solid black; 
+	border-right: 2px dashed red;  
+
+}
+
+#treno{
+	height: 70px;
+	width: 100px;
+	border: 1px dotted black;
+	position: relative;
+	left:0px;
+	top:30px;
+
+
+}
+#treno img{width: 100%; }
