@@ -1,0 +1,20 @@
+
+.cbutton{
+font-size: 2em;
+width:3em;
+height: 3em;
+padding: 0.4em;
+margin: 0.4em;
+}
+#display{
+
+width: 15.5em;
+height: 3em;
+background-color:#444;
+color:black; 
+font-size:2em;
+padding: .4em;
+text-align: right;
+overflow: hidden;
+margin-bottom: 1.5em; 
+}
