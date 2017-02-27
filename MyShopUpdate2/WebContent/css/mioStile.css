@@ -1,0 +1,88 @@
+.container { padding:0 auto; margin:0 auto;}
+.row {display:block; width: 100%; border:0px solid #ccc;}
+
+#content {float:left; width:65%;min-height:450px;}
+#sidebar {float:right; width:25%;}
+#menu  li {list-style-type: none;  display:inline; }
+
+.navbar-brand {
+	margin-left:0px;
+	font-size: 24px;
+	color: #ccbeb5;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing:1px;
+	
+}
+
+.navbar-brand a:focus{
+	color:#b9b1a9;
+	
+}
+.navbarStyle{
+	float: right !important;
+	margin-right: -80px;
+}
+.navbarStyle > li > a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	color: #a79d96;
+	font-size: 12px;
+	letter-spacing:1px;}
+
+
+	
+	.nav > li > a:focus, .nav > li > a:hover{
+	color: #766a63;
+	background-color: #ffffff;
+	}
+
+.titlePanel{
+	
+	color:#ffffff;
+	padding:5px;
+}
+	
+.titlePanel h3{
+	
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	font-size: 16px;
+	color: #a79d96;
+	text-align:center;
+	
+}
+.panelProd{
+		border-color: #ccbeb5;
+		
+		border-radius: 4px;
+		background-color: #fff;
+		border-style: solid;
+    border-width: 1px;
+	
+}
+.prezzoProd h3{font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	font-size: 16px;
+	color: #a79d96;
+	text-align:center;
+	}
+	
+	.panelButton{
+	
+	padding:10px;
+	position: relative;
+	left:30%;
+	}
+	.carrelloButton{
+	
+	padding: 5px;
+	float:right;
+	}
+	.labelCarrello{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #766a63;
+	line-height: 40px;
+	
+	}
